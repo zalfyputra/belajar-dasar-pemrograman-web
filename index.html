@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>PlayStation&#174;5</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link re;="stylesheet" href="fonts/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" type="text/css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <div class = "container">
+            <header>
+                <div class="jumbotron">
+                    <h1><i class="fa-brands fa-playstation"></i> PlayStation<sup>&#174;</sup>5</h1>
+                    <p>Play Has No Limits.</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#specs">Specs</a></li>
+                        <li><a href="#acc">Accessories</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <main>
+                <div id="content">
+
+                    <!-- Games -->
+                    <article id = "games" class="card">
+                        <h2>GAMES</h2>
+                        <img src="img/games.png" class="main-img" alt="specs">
+                        <p>
+                            Welcome to the immersive realm of PS5 gaming, where innovation meets entertainment to redefine the boundaries of interactive experiences. In this dedicated section, we showcase a curated selection of visually stunning and emotionally engaging games that exploit the cutting-edge technology of the PlayStation 5. From epic AAA titles to captivating indie gems, each game is meticulously crafted to leverage the console's powerful processing unit, advanced graphics capabilities, and rapid storage solutions. Step into a world where every detail is brought to life, and the boundaries between reality and virtuality blur, as the PS5 delivers a gaming experience like never before.<br>
+
+                            <br>Explore the extraordinary lineup of PS5 games below, each a testament to the console's commitment to pushing the boundaries of what's possible in gaming. The carefully chosen titles not only showcase the console's technical prowess but also highlight the diverse and captivating narratives that make PS5 gaming an unparalleled adventure. Scroll down to discover a visual feast of gaming excellence, where each image provides a glimpse into the thrilling worlds waiting to be explored on your PlayStation 5.
+                        </p>
+                        <h3 for="gameSelector">What is your favorite PS5 game?</h3>
+                        <select id="gameSelector" onchange="favGame()">  
+                            <option value="default"> Select a game to see its art</option>
+                            <option value="eldenRing"> Elden Ring </option>  
+                            <option value="hogwarts"> Hogwarts Legacy </option> 
+                            <option value="tlou2"> The Last of Us II </option>
+                            <option value="tsushima"> Ghost of Tsushima </option>
+                        </select>
+                        <div id="imageContainter">
+                            <img id="gameArt" src="" class="main-img">
+                        </div>
+                    </article>
+
+                    <!-- Specs -->
+                    <article id = "specs" class="card">
+                        <h2>SPECIFICATIONS</h2>
+                        <img src="img/specs.png" class="main-img" alt="specs">
+                        <p>The PS5 console is predominately white and features some quite sleek curved
+                            surfaces. With black slopes in the middle section where the components are 
+                            held. It has some cooling ventilation  on the edges and some blue lights
+                            which accent the edges of the box, giving the PS5 a stealthy look. On the
+                            front of the console are USB-A and USB-C.
+                            While this is what the PS5 hardware looks like, what abou the inside? Here
+                            are the specs of the PS5 console:
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Component</th>
+                                <th>Specification</th>
+                            </tr>
+                            <tr>
+                                <td>CPU</td>
+                                <td>x86-64-AMD Ryzen Zen 8 Cores / 16 Threads at 3.5GHz</td>
+                            </tr>
+                            <tr>
+                                <td>GPU</td>
+                                <td>Ray Tracing Acceleration up to 2.23 GHz (10.3 TFLOPS)</td>
+                            </tr>
+                            <tr>
+                                <td>Memory</td>
+                                <td>16GB GDDR6/256-bit</td>
+                            </tr>
+                            <tr>
+                                <td>Internal Storage</td>
+                                <td>Custom 825GB SSD</td>
+                            </tr>
+                            <tr>
+                                <td>Optical Drive</td>
+                                <td>4K UHD Blu-ray</td>
+                            </tr>
+                            <tr>
+                                <td>External Storage</td>
+                                <td>USB HDD Support</td>
+                            </tr>
+                            <tr>
+                                <td>Connectivity</td>
+                                <td>802.11ax Wi-Fi 6, Bluetooth 5.1</td>
+                            </tr>
+                            <tr>
+                                <td>Audio</td>
+                                <td>Dolby Atmos</td>
+                            </tr>
+                            <tr>
+                                <td>Video Output</td>
+                                <td>4K UHD, 8K</td>
+                            </tr>
+                            <tr>
+                                <td>Dimensions</td>
+                                <td>390mm x 104mm x 260mm</td>
+                            </tr>
+                            <tr>
+                                <td>Weight</td>
+                                <td>4.5kg</td>
+                            </tr>
+                        </table>
+                    </article>
+
+                    <!-- Accessories -->
+                    <article id = "acc" class="card">
+                        <h2>ACCESSORIES</h2>
+                        <img src="img/acc.jpg" class="main-img" alt="acc">
+                        <p>The latest PlayStation generation brings with it all-new PS5 accessories
+                            that can make your gaming experience even better. There are several official
+                            and third-party options which add convenient extras, ike a camera for streaming,
+                            enhanced audio via its proprietary headset, a handy controller charging dock
+                            and more. Here are lists of PS5 accessories that you can buy today:</p>
+                        <section>
+                            <h3>DualSense&trade; Charging Station</h3>
+                            <img src="img/acc-1.jpg" alt="acc-1" class="content-img">
+                            <p>A charging station is a must if you're sick of having unsightly cables hanging
+                                from the front or back of your PS5. Fear not, though, because the DualSense
+                                Charging Station will fix this, as it offers a dedicated place to charge your
+                                controllers. This official charging station matches the PS5 console's and
+                                DualSense controller's bold two-tone design.</p>
+
+                            <p>It should minimize the chance of you tripping on a loose cable and give your
+                                setup a more aesthetically pleasing look. By keeping your controllers docked,
+                                you can be sure that as soon as they're fully charged, you'll be ready for some
+                                more gaming goodness in no time. Just be prepared to charge them up often, the
+                                DualSense doesn't have the longest battery life.</p>
+                        </section>
+                        <section>
+                            <h3>Pulse 3D&trade; Wireless Headset</h3>
+                            <img src="img/acc-2.jpg" alt="acc-2" class="content-img">
+                            <p>The Pulse 3D Wireless headset is an evolution of the Sony Platinum Wireless
+                                headphones and is possibly one of the best ways to utilize the new 3D audio
+                                tech feature that the PS5 has to offer. This headset contains dual
+                                noise-cancelling microphones, allowing clear communication during multiplayer
+                                sessions. It's a good one for anyone looking for a headset to get their PS5
+                                journey off to a flying start.</p>
+
+                            <p>It is, naturally, compatible with PS5 and also shares a similar aesthetic to
+                                ensure they always look good together. The Pulse 3D doesn't cost as much as
+                                the SteelSeries headset above, so you're getting something of a saving compared
+                                to other models. 3D audio support should help elevate your gaming experiences
+                                to a whole new level.</p>
+                        </section>
+                        <section>
+                            <h3>Media Remote</h3>
+                            <img src="img/acc-3.jpg" alt="acc-3" class="content-img">
+                            <p>A controller can be a faff to use when you just want to watch a movie or TV
+                                show. It's very easy to rest it on a table and accidentally hit the shoulder
+                                buttons, messing up your viewing by accidentally fast forwarding or otherwise.
+                                So, the PS5 media remote is a great accessory if you want something that's
+                                built for the sole purpose of browsing through your streaming services.</p>
+
+                            <p>With its dedicated buttons for many popular streaming services including
+                                Netflix, Disney Plus, YouTube and Spotify, the media remote should prove to
+                                be a great addition to any PS5 setup. It also means you won't be drain your
+                                controller battery faster than necessary, either.</p>
+                        </section>
+                        <section>
+                            <h3>HD Camera</h3>
+                            <img src="img/acc-4.jpg" alt="acc-4" class="content-img">
+                            <p>If you're unsure about what the PS5 HD Camera accessory does, we've got you
+                                covered. It's great if you stream your games, or are someone who just loves
+                                to share and broadcast their gameplay. It's not seen much integration directly
+                                into games yet like the PS4 camera, but this could always change in the future.</p>
+                            
+                            <p>The HD camera has had a cool, funky design upgrade from the PlayStation 4 Camera
+                                and it's main purpose is so you can add yourself to your streams or gameplay
+                                clips. It also has an adjustable stand and can be attached to the top of your
+                                TV or elsewhere. </p>
+                        </section>
+                    </article>
+
+                    <!-- About -->
+                    <article id = "about" class="card">
+                        <h2>ABOUT</h2>
+                        <img src="img/about.png" class="main-img" alt="about">
+                        <p>The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive
+                            Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5
+                            was released on November 12, 2020, in Australia, Japan, New Zealand, North America,
+                            and South Korea, with worldwide release following a week later. The PS5 is part of
+                            the ninth generation of video game consoles, along with Microsoft's Xbox Series X
+                            and Series S consoles, which were released in the same month.</p>
+                        <section>
+                            <h3>History</h3>
+                            <ul>
+                                <li>PlayStation (1994)</li>
+                                <li>PlayStation (1994)</li>
+                                <li>PS One (2000)</li>
+                                <li>PlayStation 2 (2000)</li>
+                                <li>PlayStation 2 Slim (2004)</li>
+                                <li>PlayStation Portable (2004)</li>
+                                <li>PlayStation 3 (2006)</li>
+                                <li>PlayStation 3 Slim (2009)</li>
+                                <li>PlayStation Vita (2011)</li>
+                                <li>PlayStation 3 Super Slim (2012)</li>
+                                <li>PlayStation 4 (2013)</li>
+                                <li>PlayStation 4 Slim (2016)</li>
+                                <li>PlayStation 4 Pro (2016)</li>
+                                <li>PlayStation Classic (2018)</li>
+                                <li>PlayStation 5 (2020)</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Design</h3>
+                            <p>The base model includes an optical disc drive compatible with Ultra HD Blu-ray
+                                discs. The Digital Edition lacks this drive, allowing it to serve as a
+                                lower-cost model for those who prefer to buy games through digital download.
+                                The two variants were launched simultaneously.</p>
+                        </section>
+                    </article>
+                </div>
+
+                <!-- Sidebar -->
+                <aside>
+                    <article class="profile card">
+                        <header>
+                            <h2>Zalfy Putra Rezky</h2>
+                            <p>Computer Engineering Student at University of Indonesia</p>
+                            <figure>
+                                <img src="img/zalfy.jpg" class="profile-img">
+                                <figcaption style="font-size:small">Zalfy in 2023</figcaption>
+                            </figure>
+                        </header>
+                        <section>
+                            <p>
+                                Hi, I'm a 3rd year college student who's passionate about learning new things,
+                                discovering my potential, and striving to become a better person. Throughout
+                                my college years, I always try to improve my skills such as public speaking,
+                                teamwork, organizational development, research, and things like that. I will
+                                continue to improve my skills by contributing to volunteer programs and
+                                internships. Furthermore, I'm also interested in finance, business,
+                                entrepreneurship, data analysis, research and development, web development, 
+                                and the future of information technology.
+                            </p>
+                            <h3>More about me</h3>
+                            <table>
+                                <tr>
+                                    <th>Age</th>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <th>Status</th>
+                                    <td>Single</td>
+                                </tr>
+                                <tr>
+                                    <th>City</th>
+                                    <td>Jakarta</td>
+                                </tr>
+                                <tr>
+                                    <th>Institution</th>
+                                    <td>Universitas Indonesia</td>
+                                </tr>
+                            </table>
+                            <h3>My socials</h3>
+                            <div id="socials">
+                                <p><a href="http://linkedin.com/in/zalfyputra" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></p>
+                                <p><a href="http://github.com/zalfyputra" target="_blank"><i class="fa-brands fa-github"></i> Github</a></p>
+                                <p><a href="http://instagram.com/zalfyptr/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+                                <p><a href="http://twitter.com/zalfyputra" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter</a></p>
+                            </div>
+                        </section>
+                    </article>
+                </aside>
+            </main>
+
+            <!-- Footer -->
+            <footer>
+                &copy; 2024 PlayStation<sup>&#174;</sup>5
+            </footer>
+        </div>
+    </body> 
+</html>
